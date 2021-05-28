@@ -1,0 +1,8 @@
+{
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylamaEnabled": false,
+    "python.pythonPath": "C:\\Users\\ping\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\perfstat-Pnl-Y3Wp-py3.6\\Scripts\\python.exe",
+    "jupyter.jupyterServerType": "local"
+}
