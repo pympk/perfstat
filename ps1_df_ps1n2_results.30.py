@@ -80,8 +80,8 @@ import itertools
 
 # ########## Colab_change
 import sys
-sys.path.append("C:/Users/ping/Google Drive/python/py_files/perfstat/")
-# sys.path.append("/content/drive/MyDrive/python/py_files/perfstat/")
+# sys.path.append("C:/Users/ping/Google Drive/py_files/python/perfstat/")
+sys.path.append("/content/drive/MyDrive/py_files/python/perfstat/")
 # ########## Colab_change
 
 from util import list_dump, append_df_2
@@ -92,8 +92,8 @@ from get_symbol_data_5 import get_symbol_data_5
 
 # ########## Colab_change
 # my_path = "C:/Users/ping/Desktop/test/"
-# my_path = "/content/drive/MyDrive/stocks/MktCap2b_AUMtop1200/"
-my_path = "C:/Users/ping/Google Drive/stocks/MktCap2b_AUMtop1200/"
+my_path = "/content/drive/MyDrive/stocks/MktCap2b_AUMtop1200/"
+# my_path = "C:/Users/ping/Google Drive/stocks/MktCap2b_AUMtop1200/"
 # ########## Colab_change
 # endregion import modules
 
@@ -986,7 +986,7 @@ file_etfs_Top1200_AUM = path_symbols_file + "2021_AUMtop1200.csv"
 # date_end_limit is the last date used in performance stats calculation
 # date_end_limit = "2020-10-23"  # test
 # # date_end_limit = '2013-02-06'  # next colab run
-date_end_limit = "2021-05-14"
+date_end_limit = "2021-05-28"
 # date_end_limit = dt.date.today().strftime("%Y-%m-%d")
 
 # re-load symbols' OHLCV data
@@ -997,7 +997,7 @@ force_update_df_symbols_close = True
 # iloc_iteration is number of dates to go back from date_end_limit
 #  took 19 hours for 50 iterations
 # iloc_iteration = 22  # iloc_iteration = 0 results in 1 iteration
-iloc_iteration = 0  # iloc_iteration = 0 results in 1 iteration, 1.3 hrs for 5
+iloc_iteration = 12  # iloc_iteration = 0 results in 1 iteration, 1.3 hrs for 5
 # iloc_iteration = 1000  # iloc_iteration = 0 results in 1 iteration
 
 # ++++ set_iloc_offsets: set of iloc_offsets to iterate ++++
