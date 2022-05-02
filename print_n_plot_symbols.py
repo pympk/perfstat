@@ -2,11 +2,11 @@ import datetime as dt  # NOQA
 from util import plot_symbols, print_symbol_data, pickle_dump
 
 
-# symbols = ['FTEC', 'WCLD', 'SMH', 'ICLN', 'CNRG']  # symbols to plot
-symbols = ['BTC-USD', 'ETH-USD', 'UNI3-USD', 'LINK-USD', 'MATIC-USD']  # symbols to plot
+symbols = ['FTEC', 'WCLD', 'SMH', 'CNRG']  # symbols to plot
+# symbols = ['BTC-USD', 'ETH-USD', 'UNI3-USD', 'LINK-USD', 'MATIC-USD']  # symbols to plot
 
 # last date of data
-date_end_limit = '2021-05-27'
+date_end_limit = '2020-08-20'
 # date_end_limit = dt.date.today().strftime("%Y-%m-%d")
 
 # switches to print and plot symbols data
@@ -20,7 +20,8 @@ rows_OHLCV_display = 6  # number of rows of OHLCV to display
 
 # directory path of VSCode_dump
 path_symbols_data = (
-    "C:/Users/ping/Google Drive/stocks/MktCap2b_AUMtop1200/"  # NOQA
+#    "C:/Users/ping/Google Drive/stocks/MktCap2b_AUMtop1200/"  # NOQA
+    "G:/My Drive/stocks/MktCap2b_AUMtop1200/"  # NOQA
 )
 path_data_dump = path_symbols_data + "VSCode_dump/"
 

@@ -1636,8 +1636,8 @@ def print_symbol_data(symbols, path_symbols_data, date_end_limit=None,
 
     # symbol data files downloaded from Vanguard stock screen or ETF.com
     path_source = \
-        'C:/Users/ping/Google Drive/stocks/MktCap2b_AUMtop1200/source/'
-
+        'G:/My Drive/stocks/MktCap2b_AUMtop1200/source/'
+        # 'C:/Users/ping/Google Drive/stocks/MktCap2b_AUMtop1200/source/'
 
     # file_etfs = 'AUMtop1200.csv'  # largest 1200 ETF by AUM from etf.com
     # file_stocks = 'MktCap2b.csv'  # stock with market-cap over 2b from Vanguard
