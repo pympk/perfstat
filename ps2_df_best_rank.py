@@ -26,7 +26,8 @@ import numpy as np
 import pandas_market_calendars as mcal
 
 import sys
-sys.path.append('C:/Users/ping/Google Drive/python/py_files/perfstat/')
+# sys.path.append('C:/Users/ping/Google Drive/python/py_files/perfstat/')
+sys.path.append("G:/My Drive/py_files/python/perfstat/")
 # sys.path.append('/content/drive/My Drive/python/py_files/perfstat/')
 from collections import Counter
 from util import (

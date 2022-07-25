@@ -5,16 +5,14 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
-#python = "^3.6.1"
+python = "^3.6.1"
 pandas = "^1.1.4"
 DateTime = "^4.3"
 numpy = "1.19.3"
 jupyter = "^1.0.0"
 ipykernel = "^5.3.4"
 plotly = "^4.13.0"
-#ta-lib = {path = "TA_Lib-0.4.19-cp36-cp36m-win_amd64.whl"}
-ta-lib = {path = "TA_Lib-0.4.24-cp37-cp37m-win_amd64.whl"}
+ta-lib = {path = "TA_Lib-0.4.19-cp36-cp36m-win_amd64.whl"}
 pandas-market-calendars = "^1.6.1"
 
 [tool.poetry.dev-dependencies]

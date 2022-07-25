@@ -34,7 +34,8 @@ def candlestick(symbol, df, plot_chart=True):
     # ********
 
     # chart_path = 'C:/Users/ping/Desktop/plotly/'  # directory to store charts
-    chart_path = 'C:/Users/ping/OneDrive/Desktop/plotly/'  # directory to store charts
+    # chart_path = 'C:/Users/ping/OneDrive/Desktop/plotly/'  # directory to store charts
+    chart_path = 'C:/Users/ping/Desktop/plotly/'  # directory to store charts
     chart_name = symbol + '.html'
 
     close = df.close.values  # convert dataframe to numpy array

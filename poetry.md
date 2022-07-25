@@ -23,18 +23,17 @@ or ctl-alt-b (see keybindings.json) and paste file's relative path
 Indent by inserting a hard space
  Alt+0+1+6+0
 
-Find keyboard shortcuts I added
- View>Command Palette> or Ctrl + Shift + p
- Type 'keyboard shortcuts (JSON)'
- Click 'Open Keyboard Shortcuts' or Ctrl + Alt + l (NOT Open Default Keyboard ....) shows shortcuts I added
- Click 'Define Keybinding (Ctrl-k Ctrl-k)' dialog box
- Press desire key combination and enter in dialog box to search added my added shortcuts
+Find keyboard shortcuts I added  
+ View>Command Palette> or Ctrl + Shift + p  
+ Type 'keyboard shortcuts (JSON)'  
+ Click 'Open Keyboard Shortcuts' or Ctrl + Alt + l (NOT Open Default Keyboard ....) shows shortcuts I added  
+ Click 'Define Keybinding (Ctrl-k Ctrl-k)' dialog box  
+ Press desire key combination and enter in dialog box to search added my added shortcuts  
  Example:
-  ctrl+alt+l is shortcut for:
-  cd perfstat
-  poetry shell
-  code .
-}
+  ctrl+alt+l is shortcut for: cd perfstat  
+  poetry shell (activate virtual environment, exit to deactivate)  
+  code . (open new vscode window)
+&nbsp;
 
 ModuleNotFoundError: No module named 'pandas':  
 After moving directory, run poetry install. The install command reads the pyproject.toml file from the current project, resolves the dependencies, and installs them.

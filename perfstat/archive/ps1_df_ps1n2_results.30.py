@@ -81,7 +81,8 @@ import itertools
 # ########## Colab_change
 import sys
 # sys.path.append("C:/Users/ping/Google Drive/py_files/python/perfstat/")
-sys.path.append("/content/drive/MyDrive/py_files/python/perfstat/")
+sys.path.append("G:/My Drive/py_files/python/perfstat/")
+# sys.path.append("/content/drive/MyDrive/py_files/python/perfstat/")
 # ########## Colab_change
 
 from util import list_dump, append_df_2
@@ -92,7 +93,8 @@ from get_symbol_data_5 import get_symbol_data_5
 
 # ########## Colab_change
 # my_path = "C:/Users/ping/Desktop/test/"
-my_path = "/content/drive/MyDrive/stocks/MktCap2b_AUMtop1200/"
+my_path = "G:/My Drive/stocks/MktCap2b_AUMtop1200/"
+# my_path = "/content/drive/MyDrive/stocks/MktCap2b_AUMtop1200/"
 # my_path = "C:/Users/ping/Google Drive/stocks/MktCap2b_AUMtop1200/"
 # ########## Colab_change
 # endregion import modules
@@ -990,14 +992,14 @@ date_end_limit = "2021-05-28"
 # date_end_limit = dt.date.today().strftime("%Y-%m-%d")
 
 # re-load symbols' OHLCV data
-force_update_df_symbols_close = True
-# force_update_df_symbols_close = False
+# force_update_df_symbols_close = True
+force_update_df_symbols_close = False
 
 # ++++ takes 9 hours to run 100 iloc_iteration ++++
 # iloc_iteration is number of dates to go back from date_end_limit
 #  took 19 hours for 50 iterations
 # iloc_iteration = 22  # iloc_iteration = 0 results in 1 iteration
-iloc_iteration = 12  # iloc_iteration = 0 results in 1 iteration, 1.3 hrs for 5
+iloc_iteration = 1  # iloc_iteration = 0 results in 1 iteration, 1.3 hrs for 5
 # iloc_iteration = 1000  # iloc_iteration = 0 results in 1 iteration
 
 # ++++ set_iloc_offsets: set of iloc_offsets to iterate ++++
@@ -1019,15 +1021,15 @@ iloc_offsets8 = [8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96]
 iloc_offsets9 = [9, 18, 27, 36, 45, 54, 63, 72, 81, 90, 99, 108]
 iloc_offsets10 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120]
 set_iloc_offsets = [
-    iloc_offsets1,
-    iloc_offsets2,
-    iloc_offsets3,
-    iloc_offsets4,
-    iloc_offsets5,
-    iloc_offsets6,
-    iloc_offsets7,
-    iloc_offsets8,
-    iloc_offsets9,
+    # iloc_offsets1,
+    # iloc_offsets2,
+    # iloc_offsets3,
+    # iloc_offsets4,
+    # iloc_offsets5,
+    # iloc_offsets6,
+    # iloc_offsets7,
+    # iloc_offsets8,
+    # iloc_offsets9,
     iloc_offsets10,
 ]
 
