@@ -1,5 +1,6 @@
 import datetime as dt  # NOQA
 from util import plot_symbols, print_symbol_data, pickle_dump
+from util import plot_symbols, print_symbol_data, pickle_dump
 
 
 symbols = ['FTEC', 'WCLD', 'SMH', 'CNRG']  # symbols to plot
